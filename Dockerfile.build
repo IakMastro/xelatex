@@ -1,2 +1,16 @@
+#!/bin/sh
 
 docker build -f Dockerfile -t xelatex-thesis-custom .
+
+
+echo ""
+echo "Get"
+echo ""
+echo "Pulling  ..."
+echo "ERROR: Get https://hub.swarmlab.io:5480:/v2/: x509: certificate signed by unknown authority"
+echo ""
+echo "run"
+echo ""
+echo "sudo ./get-swarmlab.keys"
+echo ""
+
