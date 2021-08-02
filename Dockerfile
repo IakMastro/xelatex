@@ -18,4 +18,4 @@ RUN /setup.sh
 WORKDIR /home
 VOLUME ["/home"]
 
-CMD ["-f","/dev/null"]
+CMD ["tail","-f","/dev/null"]
