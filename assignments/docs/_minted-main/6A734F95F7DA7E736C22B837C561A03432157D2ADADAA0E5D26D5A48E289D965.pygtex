@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{salt\PYGZus{}and\PYGZus{}pepper}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{n}{probability}\PYG{p}{):}
+  \PYG{n}{noise\PYGZus{}image} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{zeros}\PYG{p}{(}\PYG{n}{image}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{uint8}\PYG{p}{)}
+
+  \PYG{k}{for} \PYG{n}{row} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{image}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]):}
+    \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{image}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]):}
+      \PYG{n}{rand} \PYG{o}{=} \PYG{n}{random}\PYG{p}{()}
+      \PYG{k}{if} \PYG{n}{rand} \PYG{o}{\PYGZlt{}} \PYG{n}{probability}\PYG{p}{:}
+        \PYG{n}{noise\PYGZus{}image}\PYG{p}{[}\PYG{n}{row}\PYG{p}{][}\PYG{n}{col}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mi}{0}
+      \PYG{k}{elif} \PYG{n}{rand} \PYG{o}{\PYGZgt{}} \PYG{p}{(}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}} \PYG{n}{probability}\PYG{p}{):}
+        \PYG{n}{noise\PYGZus{}image}\PYG{p}{[}\PYG{n}{row}\PYG{p}{][}\PYG{n}{col}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mi}{255}
+      \PYG{k}{else}\PYG{p}{:}
+        \PYG{n}{noise\PYGZus{}image}\PYG{p}{[}\PYG{n}{row}\PYG{p}{][}\PYG{n}{col}\PYG{p}{]} \PYG{o}{=} \PYG{n}{image}\PYG{p}{[}\PYG{n}{row}\PYG{p}{][}\PYG{n}{col}\PYG{p}{]}
+
+  \PYG{k}{return} \PYG{n}{noise\PYGZus{}image}
+\end{Verbatim}

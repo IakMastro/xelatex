@@ -1,0 +1,216 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.12.18)  18 DEC 2021 23:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+
+! LaTeX Error: File `MastersDoctoralThesis.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count175
+\l__color_backend_stack_int=\count176
+\g__color_backend_stack_int=\count177
+\g__graphics_track_int=\count178
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count179
+\g__pdf_backend_annotation_int=\count180
+\g__pdf_backend_link_int=\count181
+))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count182
+\l__fontspec_language_int=\count183
+\l__fontspec_strnum_int=\count184
+\l__fontspec_tmp_int=\count185
+\l__fontspec_tmpa_int=\count186
+\l__fontspec_tmpb_int=\count187
+\l__fontspec_tmpc_int=\count188
+\l__fontspec_em_int=\count189
+\l__fontspec_emdef_int=\count190
+\l__fontspec_strong_int=\count191
+\l__fontspec_strongdef_int=\count192
+\l__fontspec_tmpa_dim=\dimen138
+\l__fontspec_tmpb_dim=\dimen139
+\l__fontspec_tmpc_dim=\dimen140
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/xelatex/xgreek/xgreek.sty
+File: xgreek.sty 2018/02/16 v3.0.1 Package `xgreek.sty'
+
+Package `xgreek' version 3.0.1 by Apostolos Syropoulos
+\@attic@num=\count193
+)
+(/usr/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/share/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+\tipaTiiicode=\count194
+\tipasavetokens=\toks15
+\tipachecktokens=\toks16
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+))
+(/usr/share/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen143
+)
+(/usr/share/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks18
+\xl@@everylogo=\toks19
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box48
+\l__xetex_show_hyphens_temp_box=\box49
+\l__xetex_show_hyphens_final_box=\box50
+\g__xetex_show_hyphens_word_box=\box51
+)
+(/usr/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+Package: ucharclasses 2021/02/16 v2.4.0 Unicode block character classes for XeL
+aTeX
+\AlphabeticPresentationFormsClass=\XeTeXcharclass1
+\BasicLatinClass=\XeTeXcharclass2
+\CopticClass=\XeTeXcharclass3
+\GreekAndCopticClass=\XeTeXcharclass4
+\GreekExtendedClass=\XeTeXcharclass5
+\LatinExtendedAdditionalClass=\XeTeXcharclass6
+\LatinExtendedAClass=\XeTeXcharclass7
+\LatinExtendedBClass=\XeTeXcharclass8
+\LatinExtendedCClass=\XeTeXcharclass9
+\LatinExtendedDClass=\XeTeXcharclass10
+\LatinSupplementClass=\XeTeXcharclass11
+\CopticEpactNumbersClass=\XeTeXcharclass12
+\LatinExtendedEClass=\XeTeXcharclass13
+)
+
+! Package fontspec Error: The font "Linux Libertine" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.58 
+     
+? 
+
+Package fontspec Info: Could not resolve font "Linux Libertine/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Linux Libertine/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Linux Libertine/I" (it probably
+(fontspec)             doesn't exist).
+
+
+! Package fontspec Error: The font "Linux Libertine" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.58 
+     
+? 
+
+! Package fontspec Error: The font "Linux Libertine" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.58 
+     
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 
+     
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.58 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ 
+Here is how much of TeX's memory you used:
+ 6832 strings out of 476919
+ 151676 string characters out of 5827673
+ 524096 words of memory out of 5000000
+ 26833 multiletter control sequences out of 15000+600000
+ 403470 words of font info for 32 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 83i,0n,89p,273b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

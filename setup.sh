@@ -13,8 +13,9 @@ apk --no-cache add \
 
 # Install additional packages for non full scheme
 if [ "$scheme" != "full" ]; then
+  tlmgr update --self
   tlmgr install \
-  fmtcount 
+  fmtcount
 
 echo "==> extra packages"
 
@@ -33,11 +34,11 @@ fi
 
   cp /usr/local/texlive/2020/texmf-var/fonts/conf/texlive-fontconfig.conf /etc/fonts/conf.d/09-texlive.conf
 
-  apk add --no-cache msttcorefonts-installer 
+  apk add --no-cache msttcorefonts-installer
 
-  update-ms-fonts 
-  
-  fc-cache -f 
+  update-ms-fonts
+
+  fc-cache -f
 fi
 
 texhash

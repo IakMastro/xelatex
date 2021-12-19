@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{calc\PYGZus{}median}\PYG{p}{(}\PYG{n}{image}\PYG{p}{)}
+  \PYG{n}{median\PYGZus{}blur} \PYG{o}{=} \PYG{n}{cv2}\PYG{o}{.}\PYG{n}{medianBlur}\PYG{p}{(}\PYG{n}{image}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)}
+\end{Verbatim}
